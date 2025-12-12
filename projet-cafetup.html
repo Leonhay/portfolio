@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projet Cafet’Up – Léon Hayrapetyan</title>
+    <meta
+      name="description"
+      content="Application Cafet’Up conçue par Léon Hayrapetyan : parcours CAR, livrables UX/UI et résultats."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background">
+      <img src="assets/innovation-bg.svg" alt="" aria-hidden="true" />
+    </div>
+    <header class="site-header">
+            <nav class="nav">
+        <a class="logo" href="index.html">LH</a>
+        <button class="nav-toggle" aria-label="Ouvrir la navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="parcours.html">Parcours</a></li>
+          <li><a href="experiences.html">Expériences</a></li>
+          <li><a href="competences.html">Compétences</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a class="nav-btn" href="assets/CV-Leon-Hay.pdf" download>CV PDF</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section glass">
+        <header class="section-header">
+          <p class="eyebrow">Projet académique</p>
+          <h1>Cafet’Up – Commander la cafétéria en ligne</h1>
+          <p>
+            Projet mené dans le cadre des ateliers “été intelligent” TEMA : concevoir un
+            service digital pour fluidifier les commandes de la cafétéria du campus.
+          </p>
+        </header>
+        <div class="project-detail">
+          <article class="project-section">
+            <h2>Méthode CAR</h2>
+            <p>
+              <strong>Contexte :</strong> mission académique 2024 avec une équipe de 4 élèves pour
+              éviter les files d’attente à la cafétéria NEOMA et digitaliser l’expérience.
+            </p>
+            <p>
+              <strong>Action :</strong> interviews utilisateurs, définition des personas, parcours
+              mobile-first, wireframes Figma, charte graphique, business model et cadrage
+              RGPD/CGU.
+            </p>
+            <p>
+              <strong>Résultat :</strong> prototype interactif validé par le jury, démonstration live
+              et socle data (MCD/MLD/MPD) prêt pour un futur MVP.
+            </p>
+          </article>
+          <div class="project-hero-media">
+            <figure class="project-cover">
+              <img
+                src="assets/thaas-chips-02.png"
+                alt="Mockup mobile Cafet’Up"
+              />
+            </figure>
+            <p>
+              J’ai travaillé sur l’intégralité du parcours, de la recherche utilisateur
+              jusqu’à la restitution devant les intervenants, pour démontrer ma capacité
+              à articuler stratégie business, UX et contraintes réglementaires.
+            </p>
+          </div>
+          <div class="project-gallery">
+            <img src="assets/thaas-chips-03.png" alt="Personas et parcours client" />
+            <img src="assets/thaas-chips-04.png" alt="Wireframes Figma Cafet’Up" />
+            <img src="assets/thaas-chips-05.png" alt="Business model et KPIs" />
+            <img src="assets/thaas-chips-06.jpg" alt="Storyboard de présentation" />
+          </div>
+          <article class="project-section">
+            <h2>Fonctionnalités clés</h2>
+            <ul>
+              <li>Système de commande en click & collect avec créneaux horaires.</li>
+              <li>Interface mobile intuitive, navigation par menus personnalisés.</li>
+              <li>Dashboard back-office pour la cafétéria avec suivi des stocks.</li>
+              <li>Automatisation des notifications et paiement cashless.</li>
+            </ul>
+          </article>
+          <article class="project-section">
+            <h2>Outils & livrables</h2>
+            <p>
+              Figma, Notion, Excel, Canva, et un dossier complet incluant roadmap,
+              budget, plan de communication et éléments juridiques (CNIL, CGU).
+            </p>
+          </article>
+          <div class="project-actions">
+            <a class="btn secondary" href="projets.html">Retour aux projets</a>
+            <a
+              class="btn primary"
+              href="mailto:leon.hayrapetyan.23@neoma-bs.com?subject=Projet%20CafetUp"
+              >Échanger sur Cafet’Up</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Léon Hayrapetyan.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
