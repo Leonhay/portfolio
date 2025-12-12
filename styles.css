@@ -628,6 +628,10 @@ main {
   background: rgba(255, 255, 255, 0.05);
 }
 
+.project-gallery img.portrait-focus {
+  object-position: center 20%;
+}
+
 .project-section {
   border-radius: 20px;
   border: 1px solid var(--border);
